@@ -1,0 +1,104 @@
+body {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+}
+
+#brand {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul a {
+    text-decoration: none;
+    color: grey;
+}
+
+.link {
+    float: left;
+    border-color: aliceblue;
+    font-size: 30px;
+    border-width: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.7s;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 35px;
+    background-color: dimgrey;
+}
+
+.link:active {
+    background-color: orange;
+}
+
+#aisn {
+    box-shadow: 2px 2px 30px black;
+    transition-duration: 0.9s;
+}
+
+#aisn:hover {
+    box-shadow: 5px 5px 60px black;
+    cursor: pointer;
+}
+
+#p {
+    text-shadow: 2px 2px 2px darkgrey;
+    font-size: 30px;
+}
+.top{
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    position: fixed;
+}
+
+
+#menu a {
+    text-decoration: none;
+}
+
+marquee {
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    border-style: solid;
+    border-bottom-color: orange;
+    border-bottom-width: thick;
+}
+.welcome-text{
+    margin-top: -425px; 
+}
+
+p {
+    text-shadow: 2px 2px 2px darkgrey;
+    font-size: 60px;
+}
+.line{
+    width: 160px;
+    height: 15px;
+    background-color: black;
+    margin: 8px auto;
+}
+#imgPrinci{
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+html{
+    scroll-behavior: smooth;
+}
